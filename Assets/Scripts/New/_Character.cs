@@ -5,6 +5,7 @@ using UnityEngine;
 public class _Character : MonoBehaviour
 {
     public _Stat[] stats;
+    public Sprite portrait;
 
     void Start()
     {
@@ -17,6 +18,7 @@ public class _Character : MonoBehaviour
     }
 }
 
+[System.Serializable]
 public class _Stat
 {
     public string name;

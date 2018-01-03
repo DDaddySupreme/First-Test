@@ -2,15 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class _BattleController : MonoBehaviour {
+public class _BattleController : MonoBehaviour
+{
+    public List<GameObject> charList = new List<GameObject>();
+    public Dictionary<GameObject, _Character> scriptDict;
+    //public GameObject turn;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public List<GameObject> turnOrder;
+
+
+    void Start()
+    {
+
+    }
+
+    void Update()
+    {
+
+    }
 }
