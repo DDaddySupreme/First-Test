@@ -42,13 +42,15 @@ public class Shape
     public BasicShape basicShape;
     public int distance;
     public float falloff;
-    public Vector2 offset;
+    public Vector3 offset;
     public string[] args;
 
     public enum BasicShape
     {
-        Circle,
         Square,
+        Circle,
+        Diamond,
+        Ring,
         LineDirection,
         LineFromTo,
         Cone,
